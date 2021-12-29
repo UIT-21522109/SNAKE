@@ -511,3 +511,4 @@ int main()
     if(c=='y') return;
     else goto ooo;
 }
+nnnnn
