@@ -26,7 +26,7 @@ void menu()
 {
 
     cout<<"                     M E N U:    "<<endl<<endl;
-    cout<<"                  1: Bat dau    "<<endl<<endl;
+    cout<<"                  1: Begin    "<<endl<<endl;
     cout<<"                  2: Tuy chon    "<<endl<<endl;
     cout<<"                  3: Thoat       "<<endl<<endl;
 }
