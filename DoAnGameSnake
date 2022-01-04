@@ -23,5 +23,23 @@ int main()
 
 
 
-
+void options()
+{
+    char sel;
+    system("cls");
+    while(true)
+    {
+    system("cls");
+    cout<<""<<endl<<endl;
+    cout<<"                          M E N U :      "<<endl<<endl;
+    cout<<"                       1: DIFFICULTY LEVEL         "<<endl<<endl;
+    cout<<"                       2: CONTROL      "<<endl<<endl;
+    cout<<"                       3: GO BACK            "<<endl<<endl;
+    cin>>sel;
+    if(sel=='1') difficulty();
+    else if(sel=='2') help();
+    else if(sel=='3') return;
+    else system("cls");
+    }
+}
 
