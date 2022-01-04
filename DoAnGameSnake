@@ -398,6 +398,21 @@ int main()
 
 
 
+void endgame(int score,int highscore) //just some screens for certain actions
+{
+    cout<<""<<endl<<endl;
+    cout<<" ------------------------------------------------------------------------- "<<endl;
+    cout<<"|    *****      *     *       * ******       ****  *       ****** ****    |"<<endl;
+    cout<<"|   *          * *    * *   * * *           *    *  *     * *     *   *   |"<<endl;
+    cout<<"|   *  ****   *   *   *  * *  * *****       *    *   *   *  ****  ****    |"<<endl;
+    cout<<"|   *  *  *  *******  *   *   * *           *    *    * *   *     * *     |"<<endl;
+    cout<<"|    *****  *       * *       * ******       ****      *    ***** *   *   |"<<endl;
+    cout<<" ------------------------------------------------------------------------- "<<endl;
+    cout<<""<<endl<<endl;
+    cout<<"                        Y O U R   S C O R E : "<<score<<endl<<endl;
+    cout<<"                        H I G H   S C O R E : "<<highscore<<endl;
+    cout<<""<<endl<<endl;
+}
 
 
 
