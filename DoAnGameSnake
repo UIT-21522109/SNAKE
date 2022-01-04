@@ -346,4 +346,5 @@ int main()
 
 
 
-void
+bool checkFood(char s[][40],int fx,int fy)
+{
