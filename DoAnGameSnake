@@ -509,5 +509,5 @@ int main()
     ooo:
     cin>>c;
     if(c=='y') return;
-    else cout<<"Trò chơi kết thúc";
+    else cout<<"Trò chơi kết thúc.";
 }
