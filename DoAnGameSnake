@@ -394,7 +394,5 @@ bool gameover(char s[][22],int temp[][22]) //checking if snake has hit its tail 
             }
         }
     }
-     if(c==1) return true; //if yes, game ends
-    if(c==0) return false;
-}
+
 
