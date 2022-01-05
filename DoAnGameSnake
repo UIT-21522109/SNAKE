@@ -354,4 +354,5 @@ bool checkFood(char s[][40],int fx,int fy)
    {
       for(y=1,y<=39,y++)
       {
-         if
+         if(s[x][y]=o)
+
