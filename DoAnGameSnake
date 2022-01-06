@@ -98,12 +98,15 @@ void game()
     int temp[50][40];
     int i,j,fx,fy,x,y,score=0,highscore=score;
     for(i=0;i<40;i++)
+      {spawnFood(s,fx,fy);
+    for(y=1;y<39;y++)
+    {
       {
-      
-      }
-    
-    
-}
+            if(i==0 || i==39) s[j][i]='-';
+            if(i>0 && i<39) s[j][i]=' ';
+            if(j==0 || j==49) s[j][i]='|';
+        }
+    }
 
 
 
