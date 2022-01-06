@@ -350,9 +350,9 @@ bool checkFood(char s[][40],int fx,int fy)
 {
 
    int x,y,c=0;
-   for(x=1,x<=49,x++)
+   for(x=1,x<49,x++)
    {
-      for(y=1,y<=39,y++)
+      for(y=1,y<39,y++)
       {
          if(s[x][y]=o && x=fx && y=fy)
          {
