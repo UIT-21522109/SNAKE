@@ -360,7 +360,9 @@ bool checkFood(char s[][40],int fx,int fy)
          }
       }
    }
-   if(
+   if(c==1) return true;
+   else return false;
+}
   
 
 
