@@ -433,7 +433,7 @@ void help()
     cout<<"|                                              |"<<endl;
     cout<<"|                     w - GO UP                |"<<endl;
     cout<<"|                                              |"<<endl;
-    cout<<"|            a - TURN LEFT        d - TURN RIGT|"<<endl;
+    cout<<"|       a - TURN LEFT         d - TURN RIGT    |"<<endl;
     cout<<"|                                              |"<<endl;
     cout<<"|                    z - GO DOWN               |"<<endl;
     cout<<"|                                              |"<<endl;
