@@ -363,7 +363,6 @@
 
 
 
-
 void spawnFood(char s[][40],int & fx,int & fy)
 {
      int i,j;
