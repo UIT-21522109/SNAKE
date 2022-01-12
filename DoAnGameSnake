@@ -55,6 +55,26 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void table(char s[][40],int score)
 {
     int x=50;
