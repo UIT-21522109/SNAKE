@@ -311,6 +311,41 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bool checkFood(char s[][40],int fx,int fy)
 {
 
@@ -325,7 +360,7 @@ bool checkFood(char s[][40],int fx,int fy)
          }
       }
    }
-   if(c==5) return true;
+   if(c==1) return true;
    else return false;
 }
 
