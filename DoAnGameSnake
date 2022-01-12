@@ -161,6 +161,7 @@
 
 
 
+
 void controls(char s[][40],int temp[][40],int eating)
 {
     int i,x,y;
@@ -301,13 +302,6 @@ void controls(char s[][40],int temp[][40],int eating)
         }
     }
 }
-
-
-
-
-
-
-
 
 
 
