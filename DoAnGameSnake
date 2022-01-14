@@ -430,9 +430,9 @@ void options()
     {
     system("cls");
     cout<<""<<endl<<endl;
-    cout<<"                          M E N U :      "<<endl<<endl;
-    cout<<"                       1: DIFFICULTY LEVEL         "<<endl<<endl;
-    cout<<"                       2: CONTROL      "<<endl<<endl;
+    cout<<"                          O P T I O N S :      "<<endl<<endl;
+    cout<<"                       1: CHOOSE DIFFICULTY       "<<endl<<endl;
+    cout<<"                       2: CONTROLS                  "<<endl<<endl;
     cout<<"                       3: GO BACK            "<<endl<<endl;
     cin>>sel;
     if(sel=='1') difficulty();
