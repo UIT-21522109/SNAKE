@@ -504,11 +504,14 @@ void pause()
 {
     char c;
     cout<<""<<endl<<endl;
-    cout<<"Pause game. Do you want to play again? [y/n]  ";
-    ooo:
+    cout<<"Game over. Do you want to play again? [y/n]  ";
     cin>>c;
     if(c=='y') return;
-    else goto ooo;
+    else if(c=='n')
+    {
+        system("cls");
+            main();
+    }
 }
 
 
