@@ -24,7 +24,6 @@ int chek[50][40];
 double diff=0.5;
 int main()
 {
-    srand(time(0));
     int i;
     char sl;
     for(i=0;i<9999;i++)
@@ -134,7 +133,6 @@ void game()
         {
             contr=getch();
             if(contr=='s') pause();
-            goto movemake;
         }
         else
         {
@@ -436,7 +434,7 @@ void help()
     cout<<"|                                              |"<<endl;
     cout<<"|                    z - Pown                  |"<<endl;
     cout<<"|                                              |"<<endl;
-    cout<<"|                    s - Pause                  |"<<endl;
+    cout<<"|                    s - Pause                 |"<<endl;
     cout<<"|                                              |"<<endl;
     cout<<" ---------------------------------------------- "<<endl<<endl<<endl;
     cout<<"Return? [y/n]  ";
